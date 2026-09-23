@@ -1,0 +1,3015 @@
+[
+ {
+  "id": 7346,
+  "age_ratings": [
+   226927,
+   32771,
+   47171,
+   91197,
+   97621,
+   189068,
+   62638
+  ],
+  "aggregated_rating": 97.5925925925926,
+  "aggregated_rating_count": 27,
+  "cover": 172453,
+  "first_release_date": 1488499200,
+  "genres": [
+   9,
+   31
+  ],
+  "hypes": 142,
+  "name": "The Legend of Zelda: Breath of the Wild",
+  "platforms": [
+   41,
+   130
+  ],
+  "rating": 92.49745665613112,
+  "rating_count": 2976,
+  "updated_at": 1790085957
+ },
+ {
+  "id": 6036,
+  "age_ratings": [
+   47775,
+   47777,
+   47776,
+   47774,
+   47778,
+   188089,
+   44202
+  ],
+  "aggregated_rating": 97.4,
+  "aggregated_rating_count": 10,
+  "cover": 279388,
+  "first_release_date": 1406332800,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 5,
+  "name": "The Last of Us Remastered",
+  "platforms": [
+   48
+  ],
+  "rating": 93.34900305965036,
+  "rating_count": 1695,
+  "updated_at": 1789993272
+ },
+ {
+  "id": 240009,
+  "age_ratings": [
+   181399,
+   182012
+  ],
+  "aggregated_rating": 97.0,
+  "aggregated_rating_count": 8,
+  "cover": 363670,
+  "first_release_date": 1718928000,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 63,
+  "name": "Elden Ring: Shadow of the Erdtree",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   167,
+   49
+  ],
+  "rating": 86.39385363762872,
+  "rating_count": 123,
+  "updated_at": 1789811514
+ },
+ {
+  "id": 119133,
+  "age_ratings": [
+   57167,
+   57169,
+   213790,
+   57164,
+   57168,
+   57165,
+   57170
+  ],
+  "aggregated_rating": 96.9,
+  "aggregated_rating_count": 10,
+  "cover": 212094,
+  "first_release_date": 1645747200,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 96,
+  "name": "Elden Ring",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   167,
+   49
+  ],
+  "rating": 93.72715661893466,
+  "rating_count": 2294,
+  "updated_at": 1790167975
+ },
+ {
+  "id": 26758,
+  "age_ratings": [
+   96232,
+   191035,
+   46980,
+   46982,
+   92567,
+   47148,
+   36250
+  ],
+  "aggregated_rating": 96.70588235294117,
+  "aggregated_rating_count": 17,
+  "cover": 76371,
+  "first_release_date": 1509062400,
+  "genres": [
+   8,
+   31
+  ],
+  "hypes": 88,
+  "name": "Super Mario Odyssey",
+  "platforms": [
+   508,
+   130
+  ],
+  "rating": 88.827887974568,
+  "rating_count": 1873,
+  "updated_at": 1789770285
+ },
+ {
+  "id": 12517,
+  "age_ratings": [
+   32021,
+   205523,
+   68964,
+   93691,
+   116555,
+   125175,
+   188794
+  ],
+  "aggregated_rating": 96.38461538461539,
+  "aggregated_rating_count": 13,
+  "cover": 515558,
+  "first_release_date": 1442275200,
+  "genres": [
+   9,
+   12,
+   31,
+   32
+  ],
+  "name": "Undertale",
+  "platforms": [
+   48,
+   3,
+   6,
+   14,
+   46,
+   49,
+   130
+  ],
+  "rating": 85.97040861041071,
+  "rating_count": 1888,
+  "updated_at": 1790131164
+ },
+ {
+  "id": 7425,
+  "aggregated_rating": 96.28571428571429,
+  "aggregated_rating_count": 7,
+  "cover": 443644,
+  "first_release_date": 441676800,
+  "genres": [
+   31
+  ],
+  "name": "The Witness",
+  "platforms": [
+   65,
+   15,
+   151,
+   63,
+   93,
+   14,
+   13,
+   16,
+   75,
+   126,
+   25,
+   94,
+   154
+  ],
+  "updated_at": 1789032137
+ },
+ {
+  "id": 1078,
+  "age_ratings": [
+   220121,
+   36446,
+   47146,
+   197002,
+   197001,
+   197003,
+   98144
+  ],
+  "aggregated_rating": 96.25,
+  "aggregated_rating_count": 6,
+  "cover": 95673,
+  "first_release_date": 1274572800,
+  "genres": [
+   8,
+   31
+  ],
+  "name": "Super Mario Galaxy 2",
+  "platforms": [
+   5,
+   41
+  ],
+  "rating": 88.92599129389829,
+  "rating_count": 950,
+  "updated_at": 1790029298
+ },
+ {
+  "id": 19560,
+  "age_ratings": [
+   63045,
+   222344,
+   63046,
+   23748,
+   47579,
+   187740,
+   63047
+  ],
+  "aggregated_rating": 96.23076923076923,
+  "aggregated_rating_count": 26,
+  "cover": 540186,
+  "first_release_date": 1524182400,
+  "genres": [
+   12,
+   25,
+   31
+  ],
+  "hypes": 92,
+  "name": "God of War",
+  "platforms": [
+   48,
+   6,
+   167
+  ],
+  "rating": 92.02548978096493,
+  "rating_count": 3577,
+  "updated_at": 1790158949
+ },
+ {
+  "id": 1058,
+  "age_ratings": [
+   28977,
+   79682,
+   88972,
+   88973,
+   28976
+  ],
+  "aggregated_rating": 96.0,
+  "aggregated_rating_count": 9,
+  "cover": 219039,
+  "first_release_date": 1225065600,
+  "genres": [
+   8
+  ],
+  "name": "LittleBigPlanet",
+  "platforms": [
+   9
+  ],
+  "rating": 79.07275568531782,
+  "rating_count": 275,
+  "updated_at": 1790043685
+ },
+ {
+  "id": 499,
+  "age_ratings": [
+   29125,
+   222347,
+   184209,
+   29126
+  ],
+  "aggregated_rating": 96.0,
+  "aggregated_rating_count": 6,
+  "cover": 166770,
+  "first_release_date": 1268697600,
+  "genres": [
+   25,
+   31
+  ],
+  "name": "God of War III",
+  "platforms": [
+   9
+  ],
+  "rating": 86.22703009977343,
+  "rating_count": 807,
+  "updated_at": 1789760756
+ },
+ {
+  "id": 1985,
+  "age_ratings": [
+   63312,
+   226838,
+   226839,
+   63314,
+   205786,
+   63313,
+   63311
+  ],
+  "aggregated_rating": 95.73684210526316,
+  "aggregated_rating_count": 19,
+  "cover": 87125,
+  "first_release_date": 1441065600,
+  "genres": [
+   5,
+   24,
+   31
+  ],
+  "hypes": 57,
+  "name": "Metal Gear Solid V: The Phantom Pain",
+  "platforms": [
+   9,
+   48,
+   6,
+   12,
+   49
+  ],
+  "rating": 84.69540516532356,
+  "rating_count": 1176,
+  "updated_at": 1789938210
+ },
+ {
+  "id": 74,
+  "age_ratings": [
+   105829,
+   212490,
+   105831,
+   111311,
+   105830,
+   79400,
+   188421
+  ],
+  "aggregated_rating": 95.6,
+  "aggregated_rating_count": 9,
+  "cover": 93684,
+  "first_release_date": 1264464000,
+  "genres": [
+   5,
+   12,
+   31
+  ],
+  "hypes": 1,
+  "name": "Mass Effect 2",
+  "platforms": [
+   9,
+   6,
+   12
+  ],
+  "rating": 91.19418706368577,
+  "rating_count": 2770,
+  "updated_at": 1790084974
+ },
+ {
+  "id": 565,
+  "age_ratings": [
+   131936,
+   131938,
+   88748,
+   131937,
+   131935,
+   189294
+  ],
+  "aggregated_rating": 95.375,
+  "aggregated_rating_count": 8,
+  "cover": 85079,
+  "first_release_date": 1255392000,
+  "genres": [
+   5,
+   8,
+   31
+  ],
+  "name": "Uncharted 2: Among Thieves",
+  "platforms": [
+   9
+  ],
+  "rating": 88.65195736993104,
+  "rating_count": 2223,
+  "updated_at": 1789824949
+ },
+ {
+  "id": 119388,
+  "age_ratings": [
+   226929,
+   137869,
+   120927,
+   120901,
+   138146,
+   189521,
+   138147
+  ],
+  "aggregated_rating": 95.33333333333333,
+  "aggregated_rating_count": 6,
+  "cover": 274264,
+  "first_release_date": 1683849600,
+  "genres": [
+   9,
+   31
+  ],
+  "hypes": 79,
+  "name": "The Legend of Zelda: Tears of the Kingdom",
+  "platforms": [
+   130
+  ],
+  "rating": 92.85929753049973,
+  "rating_count": 920,
+  "updated_at": 1789824089
+ },
+ {
+  "id": 9602,
+  "age_ratings": [
+   187758,
+   88958,
+   48849,
+   45744,
+   213827,
+   213828
+  ],
+  "aggregated_rating": 95.27272727272727,
+  "aggregated_rating_count": 11,
+  "cover": 94749,
+  "first_release_date": 1416528000,
+  "genres": [
+   4,
+   8
+  ],
+  "name": "Super Smash Bros. for Wii U",
+  "platforms": [
+   41
+  ],
+  "rating": 83.43801645273842,
+  "rating_count": 330,
+  "updated_at": 1790043769
+ },
+ {
+  "id": 26192,
+  "age_ratings": [
+   47780,
+   47782,
+   47781,
+   47783,
+   47784,
+   47779,
+   189552
+  ],
+  "aggregated_rating": 95.18181818181819,
+  "aggregated_rating_count": 11,
+  "cover": 279320,
+  "first_release_date": 1592524800,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 326,
+  "name": "The Last of Us Part II",
+  "platforms": [
+   48,
+   167
+  ],
+  "rating": 90.1209239701018,
+  "rating_count": 1799,
+  "updated_at": 1789996728
+ },
+ {
+  "id": 254339,
+  "age_ratings": [
+   162724,
+   162723,
+   144250,
+   145612,
+   190910,
+   224959,
+   147750
+  ],
+  "aggregated_rating": 95.0,
+  "aggregated_rating_count": 7,
+  "cover": 310593,
+  "first_release_date": 1697760000,
+  "genres": [
+   8
+  ],
+  "name": "Super Mario Bros. Wonder",
+  "platforms": [
+   130
+  ],
+  "rating": 87.43074158088703,
+  "rating_count": 216,
+  "updated_at": 1789646133
+ },
+ {
+  "id": 112875,
+  "age_ratings": [
+   188434,
+   105532,
+   112550,
+   112549,
+   112548,
+   112551,
+   105533
+  ],
+  "aggregated_rating": 94.61538461538461,
+  "aggregated_rating_count": 13,
+  "cover": 526297,
+  "first_release_date": 1667952000,
+  "genres": [
+   12,
+   25,
+   31
+  ],
+  "hypes": 77,
+  "name": "God of War Ragnar\u00f6k",
+  "platforms": [
+   48,
+   6,
+   167
+  ],
+  "rating": 90.89436405527186,
+  "rating_count": 1161,
+  "updated_at": 1789911573
+ },
+ {
+  "id": 9643,
+  "age_ratings": [
+   43533,
+   110273,
+   62893,
+   88357,
+   62895,
+   109229
+  ],
+  "aggregated_rating": 94.57142857142857,
+  "aggregated_rating_count": 7,
+  "cover": 103077,
+  "first_release_date": 1539820800,
+  "genres": [
+   9,
+   31,
+   32
+  ],
+  "hypes": 6,
+  "name": "Return of the Obra Dinn",
+  "platforms": [
+   48,
+   6,
+   14,
+   49,
+   130
+  ],
+  "rating": 89.55631184832562,
+  "rating_count": 504,
+  "updated_at": 1789760869
+ },
+ {
+  "id": 132181,
+  "age_ratings": [
+   226781,
+   130639,
+   130640,
+   130578,
+   130638,
+   106109,
+   189460
+  ],
+  "aggregated_rating": 94.5,
+  "aggregated_rating_count": 6,
+  "cover": 295056,
+  "first_release_date": 1679616000,
+  "genres": [
+   5,
+   9,
+   31
+  ],
+  "hypes": 22,
+  "name": "Resident Evil 4",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   39,
+   167,
+   14
+  ],
+  "rating": 90.44161086041753,
+  "rating_count": 685,
+  "updated_at": 1789815199
+ },
+ {
+  "id": 119171,
+  "age_ratings": [
+   204993,
+   162025,
+   204994,
+   161963,
+   148088,
+   244432,
+   244433
+  ],
+  "aggregated_rating": 94.5,
+  "aggregated_rating_count": 10,
+  "cover": 289025,
+  "first_release_date": 1691020800,
+  "genres": [
+   12,
+   15,
+   16
+  ],
+  "hypes": 39,
+  "name": "Baldur's Gate III",
+  "platforms": [
+   170,
+   169,
+   3,
+   6,
+   167,
+   14
+  ],
+  "rating": 95.04176108352098,
+  "rating_count": 1620,
+  "updated_at": 1790130756
+ },
+ {
+  "id": 26602,
+  "age_ratings": [
+   187434,
+   187435,
+   193004,
+   187697,
+   187698,
+   187699,
+   177568
+  ],
+  "aggregated_rating": 94.28571428571429,
+  "aggregated_rating_count": 7,
+  "cover": 390449,
+  "first_release_date": 1728604800,
+  "genres": [
+   12,
+   16,
+   31
+  ],
+  "hypes": 37,
+  "name": "Metaphor: ReFantazio",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   167
+  ],
+  "rating": 85.98838830594558,
+  "rating_count": 108,
+  "updated_at": 1789899697
+ },
+ {
+  "id": 303811,
+  "age_ratings": [
+   205396,
+   177554,
+   205399,
+   205400,
+   205397,
+   205398,
+   178310
+  ],
+  "aggregated_rating": 94.14285714285714,
+  "aggregated_rating_count": 7,
+  "cover": 526304,
+  "first_release_date": 1725580800,
+  "genres": [
+   8,
+   31
+  ],
+  "hypes": 43,
+  "name": "Astro Bot",
+  "platforms": [
+   167
+  ],
+  "rating": 90.53119374659144,
+  "rating_count": 164,
+  "updated_at": 1789677062
+ },
+ {
+  "id": 141503,
+  "age_ratings": [
+   83420,
+   110518,
+   215589,
+   215590,
+   215591,
+   215592,
+   93258
+  ],
+  "aggregated_rating": 94.0909090909091,
+  "aggregated_rating_count": 11,
+  "cover": 171645,
+  "first_release_date": 1636416000,
+  "genres": [
+   10
+  ],
+  "hypes": 16,
+  "name": "Forza Horizon 5",
+  "platforms": [
+   169,
+   6,
+   167,
+   49
+  ],
+  "rating": 84.51904956162994,
+  "rating_count": 356,
+  "updated_at": 1790131045
+ },
+ {
+  "id": 25076,
+  "age_ratings": [
+   103556,
+   192336,
+   91819,
+   192337,
+   213791,
+   192335,
+   26094
+  ],
+  "aggregated_rating": 94.05882352941177,
+  "aggregated_rating_count": 17,
+  "cover": 80403,
+  "first_release_date": 1540512000,
+  "genres": [
+   5,
+   12,
+   31
+  ],
+  "hypes": 257,
+  "name": "Red Dead Redemption 2",
+  "platforms": [
+   170,
+   48,
+   6,
+   49
+  ],
+  "rating": 93.2439616656825,
+  "rating_count": 3849,
+  "updated_at": 1790130761
+ },
+ {
+  "id": 114283,
+  "age_ratings": [
+   190473,
+   79245,
+   32037,
+   101952,
+   79246,
+   79247,
+   224944
+  ],
+  "aggregated_rating": 94.0,
+  "aggregated_rating_count": 10,
+  "cover": 587629,
+  "first_release_date": 1572480000,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 3,
+  "name": "Persona 5 Royal",
+  "platforms": [
+   169,
+   48,
+   6,
+   167,
+   49,
+   130
+  ],
+  "rating": 94.42990159771654,
+  "rating_count": 679,
+  "updated_at": 1789751393
+ },
+ {
+  "id": 2180,
+  "age_ratings": [
+   196920,
+   47139,
+   12648,
+   196918,
+   96231,
+   189445
+  ],
+  "aggregated_rating": 93.92857142857143,
+  "aggregated_rating_count": 14,
+  "cover": 524754,
+  "first_release_date": 1384992000,
+  "genres": [
+   8
+  ],
+  "hypes": 2,
+  "name": "Super Mario 3D World",
+  "platforms": [
+   41
+  ],
+  "rating": 84.33634851176774,
+  "rating_count": 434,
+  "updated_at": 1789849495
+ },
+ {
+  "id": 1352,
+  "age_ratings": [
+   7111,
+   104556,
+   141305,
+   33547
+  ],
+  "aggregated_rating": 93.85714285714286,
+  "aggregated_rating_count": 14,
+  "cover": 525656,
+  "first_release_date": 1331596800,
+  "genres": [
+   8,
+   31,
+   32
+  ],
+  "name": "Journey",
+  "platforms": [
+   9,
+   48,
+   6,
+   39
+  ],
+  "rating": 85.44946370641021,
+  "rating_count": 1181,
+  "updated_at": 1790151766
+ },
+ {
+  "id": 116,
+  "age_ratings": [
+   155,
+   111301,
+   92261,
+   34061,
+   124071,
+   124072
+  ],
+  "aggregated_rating": 93.66666666666667,
+  "aggregated_rating_count": 9,
+  "cover": 85067,
+  "first_release_date": 1058227200,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 2,
+  "name": "Star Wars: Knights of the Old Republic",
+  "platforms": [
+   11,
+   34,
+   6,
+   39,
+   14,
+   130
+  ],
+  "rating": 90.37644173604143,
+  "rating_count": 1484,
+  "updated_at": 1790022075
+ },
+ {
+  "id": 9927,
+  "age_ratings": [
+   162741,
+   162777,
+   162765,
+   23140,
+   77585,
+   192338,
+   190474
+  ],
+  "aggregated_rating": 93.57142857142857,
+  "aggregated_rating_count": 21,
+  "cover": 81906,
+  "first_release_date": 1473897600,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 34,
+  "name": "Persona 5",
+  "platforms": [
+   9,
+   48
+  ],
+  "rating": 92.453730460487,
+  "rating_count": 1113,
+  "updated_at": 1790004164
+ },
+ {
+  "id": 113112,
+  "age_ratings": [
+   124852,
+   49354,
+   190541,
+   214148,
+   92339,
+   109378,
+   77546
+  ],
+  "aggregated_rating": 93.52941176470588,
+  "aggregated_rating_count": 17,
+  "cover": 525627,
+  "first_release_date": 1600300800,
+  "genres": [
+   12,
+   25,
+   31,
+   32
+  ],
+  "hypes": 3,
+  "name": "Hades",
+  "platforms": [
+   169,
+   48,
+   6,
+   39,
+   167,
+   14,
+   49,
+   130
+  ],
+  "rating": 89.4358792648795,
+  "rating_count": 1757,
+  "updated_at": 1790158658
+ },
+ {
+  "id": 7471,
+  "age_ratings": [
+   4368,
+   211904,
+   211905,
+   211906,
+   79947
+  ],
+  "aggregated_rating": 93.33333333333333,
+  "aggregated_rating_count": 7,
+  "cover": 110097,
+  "first_release_date": 1245715200,
+  "genres": [
+   5,
+   31
+  ],
+  "name": "Transformers: Revenge of the Fallen",
+  "platforms": [
+   9,
+   5,
+   6,
+   38,
+   12,
+   20,
+   8
+  ],
+  "rating": 67.95225181087369,
+  "rating_count": 36,
+  "updated_at": 1789888953
+ },
+ {
+  "id": 36926,
+  "age_ratings": [
+   108628,
+   188861,
+   219966,
+   117270,
+   51100,
+   176851,
+   176850
+  ],
+  "aggregated_rating": 93.25,
+  "aggregated_rating_count": 20,
+  "cover": 82685,
+  "first_release_date": 1516924800,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 90,
+  "name": "Monster Hunter: World",
+  "platforms": [
+   48,
+   6,
+   49
+  ],
+  "rating": 83.66206101890057,
+  "rating_count": 573,
+  "updated_at": 1790173668
+ },
+ {
+  "id": 512,
+  "age_ratings": [
+   131940,
+   131942,
+   131941,
+   131939,
+   131943,
+   188736,
+   13322
+  ],
+  "aggregated_rating": 93.25,
+  "aggregated_rating_count": 8,
+  "cover": 85148,
+  "first_release_date": 1320105600,
+  "genres": [
+   5,
+   8,
+   31
+  ],
+  "name": "Uncharted 3: Drake's Deception",
+  "platforms": [
+   9
+  ],
+  "rating": 84.4603917332561,
+  "rating_count": 1464,
+  "updated_at": 1790017547
+ },
+ {
+  "id": 7331,
+  "age_ratings": [
+   168706,
+   225956,
+   192344,
+   192347,
+   192348,
+   188903,
+   192345
+  ],
+  "aggregated_rating": 93.24,
+  "aggregated_rating_count": 25,
+  "cover": 81917,
+  "first_release_date": 1462838400,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 64,
+  "name": "Uncharted 4: A Thief's End",
+  "platforms": [
+   48
+  ],
+  "rating": 90.42532000456029,
+  "rating_count": 2646,
+  "updated_at": 1790068432
+ },
+ {
+  "id": 37094,
+  "age_ratings": [
+   33468,
+   214024,
+   214025,
+   214023,
+   222088,
+   190472
+  ],
+  "aggregated_rating": 93.23076923076923,
+  "aggregated_rating_count": 13,
+  "cover": 542253,
+  "first_release_date": 1517875200,
+  "genres": [
+   8,
+   9,
+   31
+  ],
+  "hypes": 18,
+  "name": "Shadow of the Colossus",
+  "platforms": [
+   48
+  ],
+  "rating": 84.46055258894064,
+  "rating_count": 376,
+  "updated_at": 1790173668
+ },
+ {
+  "id": 538,
+  "age_ratings": [
+   222220,
+   188994,
+   205038,
+   205039,
+   67919,
+   95745,
+   32954
+  ],
+  "aggregated_rating": 93.21428571428571,
+  "aggregated_rating_count": 14,
+  "cover": 123158,
+  "first_release_date": 1364169600,
+  "genres": [
+   5,
+   31
+  ],
+  "name": "BioShock Infinite",
+  "platforms": [
+   9,
+   48,
+   3,
+   6,
+   14,
+   12,
+   49
+  ],
+  "rating": 85.66279764297256,
+  "rating_count": 2683,
+  "updated_at": 1790159458
+ },
+ {
+  "id": 732,
+  "age_ratings": [
+   47916,
+   190862,
+   47915,
+   47917,
+   47918,
+   47919,
+   243996
+  ],
+  "aggregated_rating": 93.14285714285714,
+  "aggregated_rating_count": 6,
+  "cover": 120933,
+  "first_release_date": 1098748800,
+  "genres": [
+   5,
+   10,
+   31
+  ],
+  "hypes": 2,
+  "name": "Grand Theft Auto: San Andreas",
+  "platforms": [
+   11,
+   9,
+   48,
+   74,
+   34,
+   6,
+   39,
+   14,
+   12,
+   8
+  ],
+  "rating": 90.09052518378773,
+  "rating_count": 4066,
+  "updated_at": 1790174170
+ },
+ {
+  "id": 11155,
+  "age_ratings": [
+   25718,
+   57937
+  ],
+  "aggregated_rating": 92.85714285714286,
+  "aggregated_rating_count": 7,
+  "cover": 379016,
+  "first_release_date": 1581638400,
+  "genres": [
+   31
+  ],
+  "hypes": 14,
+  "name": "Dreams",
+  "platforms": [
+   48,
+   165,
+   167
+  ],
+  "rating": 89.58836734169664,
+  "rating_count": 34,
+  "updated_at": 1789757682
+ },
+ {
+  "id": 233307,
+  "age_ratings": [
+   117387,
+   150000,
+   115432,
+   149811,
+   119991,
+   149999
+  ],
+  "aggregated_rating": 92.83333333333333,
+  "aggregated_rating_count": 6,
+  "cover": 289684,
+  "first_release_date": 1692230400,
+  "genres": [
+   12,
+   15,
+   24,
+   31,
+   32
+  ],
+  "hypes": 1,
+  "name": "Shadow Gambit: The Cursed Crew",
+  "platforms": [
+   169,
+   6,
+   167
+  ],
+  "rating": 79.51573878500137,
+  "rating_count": 15,
+  "updated_at": 1790135390
+ },
+ {
+  "id": 215769,
+  "age_ratings": [
+   142591,
+   142592,
+   148491,
+   142590,
+   148493,
+   148492,
+   162177
+  ],
+  "aggregated_rating": 92.83333333333333,
+  "aggregated_rating_count": 6,
+  "cover": 333294,
+  "first_release_date": 1695686400,
+  "genres": [
+   5,
+   12,
+   31
+  ],
+  "hypes": 9,
+  "name": "Cyberpunk 2077: Phantom Liberty",
+  "platforms": [
+   169,
+   508,
+   6,
+   167,
+   14
+  ],
+  "rating": 91.26650287808977,
+  "rating_count": 248,
+  "updated_at": 1790157544
+ },
+ {
+  "id": 19686,
+  "age_ratings": [
+   226785,
+   187960,
+   106051,
+   106053,
+   91809,
+   106052,
+   106054
+  ],
+  "aggregated_rating": 92.83333333333333,
+  "aggregated_rating_count": 12,
+  "cover": 70959,
+  "first_release_date": 1548374400,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 46,
+  "name": "Resident Evil 2",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   39,
+   167,
+   14,
+   49
+  ],
+  "rating": 87.40525718861957,
+  "rating_count": 1428,
+  "updated_at": 1790012878
+ },
+ {
+  "id": 26764,
+  "age_ratings": [
+   12329,
+   86513,
+   68115,
+   85481,
+   85482,
+   191101,
+   74139
+  ],
+  "aggregated_rating": 92.82352941176471,
+  "aggregated_rating_count": 17,
+  "cover": 94741,
+  "first_release_date": 1493337600,
+  "genres": [
+   10,
+   33
+  ],
+  "hypes": 7,
+  "name": "Mario Kart 8 Deluxe",
+  "platforms": [
+   508,
+   130
+  ],
+  "rating": 84.2796888298936,
+  "rating_count": 624,
+  "updated_at": 1789838589
+ },
+ {
+  "id": 126098,
+  "aggregated_rating": 92.77777777777777,
+  "aggregated_rating_count": 9,
+  "cover": 383452,
+  "first_release_date": 1584921600,
+  "genres": [
+   5,
+   9,
+   31
+  ],
+  "hypes": 5,
+  "name": "Half-Life: Alyx",
+  "platforms": [
+   163
+  ],
+  "rating": 93.31258658876202,
+  "rating_count": 252,
+  "updated_at": 1790044778
+ },
+ {
+  "id": 26845,
+  "age_ratings": [
+   205001,
+   223769,
+   223770,
+   80050,
+   80051,
+   188183,
+   95572
+  ],
+  "aggregated_rating": 92.77777777777777,
+  "aggregated_rating_count": 9,
+  "cover": 76781,
+  "first_release_date": 1564099200,
+  "genres": [
+   12,
+   15,
+   16,
+   24,
+   31
+  ],
+  "hypes": 19,
+  "name": "Fire Emblem: Three Houses",
+  "platforms": [
+   130
+  ],
+  "rating": 85.86812642105954,
+  "rating_count": 327,
+  "updated_at": 1789825162
+ },
+ {
+  "id": 203722,
+  "age_ratings": [
+   217614,
+   176111,
+   77122,
+   170657,
+   245329
+  ],
+  "aggregated_rating": 92.75,
+  "aggregated_rating_count": 8,
+  "cover": 577507,
+  "first_release_date": 1687910400,
+  "genres": [
+   12,
+   13,
+   31
+  ],
+  "name": "Dave the Diver",
+  "platforms": [
+   169,
+   48,
+   508,
+   34,
+   6,
+   39,
+   167,
+   14,
+   130
+  ],
+  "rating": 81.3472094259342,
+  "rating_count": 186,
+  "updated_at": 1790160420
+ },
+ {
+  "id": 191692,
+  "age_ratings": [
+   220994,
+   141195,
+   141194,
+   110337,
+   192476,
+   141196,
+   141191
+  ],
+  "aggregated_rating": 92.75,
+  "aggregated_rating_count": 8,
+  "cover": 462588,
+  "first_release_date": 1685664000,
+  "genres": [
+   4,
+   33
+  ],
+  "hypes": 7,
+  "name": "Street Fighter 6",
+  "platforms": [
+   169,
+   48,
+   6,
+   167
+  ],
+  "rating": 80.1083072120454,
+  "rating_count": 115,
+  "updated_at": 1789880394
+ },
+ {
+  "id": 2692,
+  "age_ratings": [
+   48396,
+   55757
+  ],
+  "aggregated_rating": 92.71428571428571,
+  "aggregated_rating_count": 7,
+  "cover": 89037,
+  "first_release_date": 1221350400,
+  "genres": [
+   7
+  ],
+  "name": "Rock Band 2",
+  "platforms": [
+   9,
+   5,
+   12,
+   8
+  ],
+  "rating": 86.44091443836301,
+  "rating_count": 113,
+  "updated_at": 1789243764
+ },
+ {
+  "id": 534,
+  "age_ratings": [
+   44775,
+   98874,
+   47179,
+   188972,
+   226938,
+   243067
+  ],
+  "aggregated_rating": 92.71428571428571,
+  "aggregated_rating_count": 7,
+  "cover": 275743,
+  "first_release_date": 1321574400,
+  "genres": [
+   9,
+   31
+  ],
+  "name": "The Legend of Zelda: Skyward Sword",
+  "platforms": [
+   5,
+   41
+  ],
+  "rating": 81.89057987805647,
+  "rating_count": 398,
+  "updated_at": 1790058067
+ },
+ {
+  "id": 40477,
+  "age_ratings": [
+   31817,
+   90977,
+   110584,
+   138404,
+   110234,
+   220848
+  ],
+  "aggregated_rating": 92.66666666666667,
+  "aggregated_rating_count": 6,
+  "cover": 71223,
+  "first_release_date": 1548201600,
+  "genres": [
+   12,
+   15,
+   16,
+   31,
+   32,
+   35
+  ],
+  "hypes": 4,
+  "name": "Slay the Spire",
+  "platforms": [
+   48,
+   3,
+   34,
+   6,
+   39,
+   14,
+   49,
+   130
+  ],
+  "rating": 84.10546491008103,
+  "rating_count": 541,
+  "updated_at": 1789782096
+ },
+ {
+  "id": 20,
+  "age_ratings": [
+   222218,
+   128529,
+   344,
+   43418,
+   89423,
+   185999,
+   167971
+  ],
+  "aggregated_rating": 92.625,
+  "aggregated_rating_count": 8,
+  "cover": 122598,
+  "first_release_date": 1187654400,
+  "genres": [
+   5,
+   9,
+   12,
+   31
+  ],
+  "hypes": 1,
+  "name": "BioShock",
+  "platforms": [
+   9,
+   6,
+   14,
+   12
+  ],
+  "rating": 86.63508129361183,
+  "rating_count": 3214,
+  "updated_at": 1790002050
+ },
+ {
+  "id": 103337,
+  "age_ratings": [
+   37444,
+   96289,
+   93027,
+   111206,
+   111207
+  ],
+  "aggregated_rating": 92.55555555555556,
+  "aggregated_rating_count": 9,
+  "cover": 90924,
+  "first_release_date": 1535673600,
+  "genres": [
+   12,
+   15,
+   31
+  ],
+  "hypes": 1,
+  "name": "Divinity: Original Sin II - Definitive Edition",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   39,
+   167,
+   14,
+   49,
+   130
+  ],
+  "rating": 90.18351920238362,
+  "rating_count": 148,
+  "updated_at": 1789867616
+ },
+ {
+  "id": 7342,
+  "age_ratings": [
+   124865,
+   95455,
+   124866,
+   80076,
+   92246,
+   80074,
+   189041
+  ],
+  "aggregated_rating": 92.48717948717949,
+  "aggregated_rating_count": 39,
+  "cover": 113194,
+  "first_release_date": 1467158400,
+  "genres": [
+   8,
+   9,
+   31,
+   32
+  ],
+  "hypes": 11,
+  "name": "Inside",
+  "platforms": [
+   48,
+   6,
+   39,
+   14,
+   49,
+   130
+  ],
+  "rating": 85.6789358964673,
+  "rating_count": 1635,
+  "updated_at": 1789731245
+ },
+ {
+  "id": 72,
+  "age_ratings": [
+   47685,
+   47687,
+   140774,
+   32022,
+   47684,
+   188403,
+   125644
+  ],
+  "aggregated_rating": 92.44444444444444,
+  "aggregated_rating_count": 9,
+  "cover": 82660,
+  "first_release_date": 1303084800,
+  "genres": [
+   8,
+   9,
+   31
+  ],
+  "name": "Portal 2",
+  "platforms": [
+   9,
+   3,
+   6,
+   14,
+   12,
+   130
+  ],
+  "rating": 91.3317115778766,
+  "rating_count": 4480,
+  "updated_at": 1790180530
+ },
+ {
+  "id": 134606,
+  "age_ratings": [
+   189677,
+   57177,
+   57180,
+   57178,
+   57181,
+   57176,
+   57179
+  ],
+  "aggregated_rating": 92.33333333333333,
+  "aggregated_rating_count": 9,
+  "cover": 119925,
+  "first_release_date": 1605139200,
+  "genres": [
+   12,
+   25,
+   31
+  ],
+  "hypes": 8,
+  "name": "Demon's Souls",
+  "platforms": [
+   167
+  ],
+  "rating": 86.58690489766671,
+  "rating_count": 215,
+  "updated_at": 1789915048
+ },
+ {
+  "id": 2909,
+  "age_ratings": [
+   222510,
+   47173,
+   35756,
+   98867,
+   188709
+  ],
+  "aggregated_rating": 92.33333333333333,
+  "aggregated_rating_count": 15,
+  "cover": 172387,
+  "first_release_date": 1385078400,
+  "genres": [
+   9,
+   31
+  ],
+  "hypes": 6,
+  "name": "The Legend of Zelda: A Link Between Worlds",
+  "platforms": [
+   37
+  ],
+  "rating": 87.25145949175798,
+  "rating_count": 717,
+  "updated_at": 1789709342
+ },
+ {
+  "id": 228530,
+  "age_ratings": [
+   222154,
+   206577,
+   209702,
+   209700,
+   209701,
+   209703,
+   209699
+  ],
+  "aggregated_rating": 92.16666666666667,
+  "aggregated_rating_count": 6,
+  "cover": 444165,
+  "first_release_date": 1750896000,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 188,
+  "name": "Death Stranding 2: On the Beach",
+  "platforms": [
+   6,
+   167
+  ],
+  "rating": 89.39678969649447,
+  "rating_count": 114,
+  "updated_at": 1790068381
+ },
+ {
+  "id": 43,
+  "age_ratings": [
+   125451,
+   44463,
+   93301,
+   188162,
+   231547
+  ],
+  "aggregated_rating": 92.11111111111111,
+  "aggregated_rating_count": 8,
+  "cover": 82118,
+  "first_release_date": 1314057600,
+  "genres": [
+   5,
+   9,
+   12
+  ],
+  "name": "Deus Ex: Human Revolution",
+  "platforms": [
+   9,
+   6,
+   14,
+   12
+  ],
+  "rating": 84.36168997504366,
+  "rating_count": 1046,
+  "updated_at": 1789845664
+ },
+ {
+  "id": 325594,
+  "age_ratings": [
+   197334,
+   205250,
+   205249,
+   205252,
+   205253,
+   205251,
+   224993
+  ],
+  "aggregated_rating": 92.0,
+  "aggregated_rating_count": 6,
+  "cover": 426975,
+  "first_release_date": 1741219200,
+  "genres": [
+   8,
+   9,
+   31
+  ],
+  "hypes": 85,
+  "name": "Split Fiction",
+  "platforms": [
+   169,
+   508,
+   6,
+   167
+  ],
+  "rating": 88.54969825264232,
+  "rating_count": 240,
+  "updated_at": 1790131009
+ },
+ {
+  "id": 13166,
+  "age_ratings": [
+   111643,
+   111644,
+   111645,
+   10682,
+   125671,
+   63463
+  ],
+  "aggregated_rating": 92.0,
+  "aggregated_rating_count": 14,
+  "cover": 121128,
+  "first_release_date": 1464566400,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 23,
+  "name": "The Witcher 3: Wild Hunt - Blood and Wine",
+  "platforms": [
+   169,
+   48,
+   6,
+   167,
+   49,
+   130
+  ],
+  "rating": 96.40482648809888,
+  "rating_count": 472,
+  "updated_at": 1789827899
+ },
+ {
+  "id": 1039,
+  "age_ratings": [
+   189913,
+   114358,
+   47177,
+   221970,
+   98875
+  ],
+  "aggregated_rating": 92.0,
+  "aggregated_rating_count": 6,
+  "cover": 279966,
+  "first_release_date": 1308182400,
+  "genres": [
+   9,
+   31
+  ],
+  "name": "The Legend of Zelda: Ocarina of Time 3D",
+  "platforms": [
+   37
+  ],
+  "rating": 90.13136295693626,
+  "rating_count": 530,
+  "updated_at": 1789888882
+ },
+ {
+  "id": 75235,
+  "age_ratings": [
+   32742,
+   46978,
+   46977,
+   68865,
+   46976,
+   46975,
+   188079
+  ],
+  "aggregated_rating": 91.91666666666667,
+  "aggregated_rating_count": 12,
+  "cover": 109855,
+  "first_release_date": 1594944000,
+  "genres": [
+   12,
+   25,
+   31
+  ],
+  "hypes": 117,
+  "name": "Ghost of Tsushima",
+  "platforms": [
+   48,
+   167
+  ],
+  "rating": 88.2846802554922,
+  "rating_count": 1130,
+  "updated_at": 1789911573
+ },
+ {
+  "id": 31551,
+  "age_ratings": [
+   110033,
+   143667,
+   143668,
+   143664,
+   143666,
+   222066,
+   143665
+  ],
+  "aggregated_rating": 91.88888888888889,
+  "aggregated_rating_count": 9,
+  "cover": 530406,
+  "first_release_date": 1687392000,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 27,
+  "name": "Final Fantasy XVI",
+  "platforms": [
+   169,
+   6,
+   167
+  ],
+  "rating": 82.63052509198226,
+  "rating_count": 214,
+  "updated_at": 1789831789
+ },
+ {
+  "id": 12503,
+  "age_ratings": [
+   111572,
+   126157,
+   7623,
+   10683,
+   111571,
+   111573
+  ],
+  "aggregated_rating": 91.875,
+  "aggregated_rating_count": 8,
+  "cover": 84518,
+  "first_release_date": 1444608000,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 2,
+  "name": "The Witcher 3: Wild Hunt - Hearts of Stone",
+  "platforms": [
+   169,
+   48,
+   6,
+   167,
+   49,
+   130
+  ],
+  "rating": 91.79633864792707,
+  "rating_count": 551,
+  "updated_at": 1789773690
+ },
+ {
+  "id": 5503,
+  "age_ratings": [
+   190678,
+   125474,
+   32228,
+   94093,
+   124375,
+   151781
+  ],
+  "aggregated_rating": 91.8125,
+  "aggregated_rating_count": 16,
+  "cover": 487955,
+  "first_release_date": 1435017600,
+  "genres": [
+   25,
+   31
+  ],
+  "hypes": 84,
+  "name": "Batman: Arkham Knight",
+  "platforms": [
+   48,
+   6,
+   49,
+   130
+  ],
+  "rating": 84.95556944014527,
+  "rating_count": 1519,
+  "updated_at": 1790131264
+ },
+ {
+  "id": 112874,
+  "age_ratings": [
+   63363,
+   212364,
+   56614,
+   63364,
+   63365,
+   222083,
+   188425
+  ],
+  "aggregated_rating": 91.8,
+  "aggregated_rating_count": 10,
+  "cover": 115194,
+  "first_release_date": 1645142400,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 173,
+  "name": "Horizon Forbidden West",
+  "platforms": [
+   48,
+   6,
+   167
+  ],
+  "rating": 85.41923299752622,
+  "rating_count": 383,
+  "updated_at": 1789958470
+ },
+ {
+  "id": 434,
+  "age_ratings": [
+   63035,
+   63033,
+   63036,
+   63037,
+   63034,
+   188066,
+   44681
+  ],
+  "aggregated_rating": 91.8,
+  "aggregated_rating_count": 8,
+  "cover": 120991,
+  "first_release_date": 1274140800,
+  "genres": [
+   5,
+   12,
+   31
+  ],
+  "name": "Red Dead Redemption",
+  "platforms": [
+   9,
+   6,
+   12
+  ],
+  "rating": 89.29729385238562,
+  "rating_count": 2548,
+  "updated_at": 1790002012
+ },
+ {
+  "id": 20744,
+  "age_ratings": [
+   33577,
+   190526,
+   93339,
+   108098,
+   125647,
+   108099
+  ],
+  "aggregated_rating": 91.78947368421052,
+  "aggregated_rating_count": 19,
+  "cover": 96920,
+  "first_release_date": 1351555200,
+  "genres": [
+   12,
+   31
+  ],
+  "name": "\u014ckami HD",
+  "platforms": [
+   9,
+   48,
+   6,
+   49,
+   130
+  ],
+  "rating": 87.96532425543562,
+  "rating_count": 111,
+  "updated_at": 1789979244
+ },
+ {
+  "id": 195517,
+  "age_ratings": [
+   110773,
+   109630,
+   105508,
+   101971,
+   124949
+  ],
+  "aggregated_rating": 91.75,
+  "aggregated_rating_count": 8,
+  "cover": 241803,
+  "first_release_date": 1663545600,
+  "genres": [
+   2,
+   9,
+   31
+  ],
+  "hypes": 11,
+  "name": "Return to Monkey Island",
+  "platforms": [
+   169,
+   3,
+   34,
+   6,
+   39,
+   167,
+   14,
+   130
+  ],
+  "rating": 80.48087211883183,
+  "rating_count": 89,
+  "updated_at": 1789787788
+ },
+ {
+  "id": 1942,
+  "age_ratings": [
+   222156,
+   32441,
+   67455,
+   78139,
+   46963,
+   78138,
+   187952
+  ],
+  "aggregated_rating": 91.73076923076923,
+  "aggregated_rating_count": 26,
+  "cover": 480513,
+  "first_release_date": 1431993600,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 179,
+  "name": "The Witcher 3: Wild Hunt",
+  "platforms": [
+   169,
+   48,
+   6,
+   167,
+   49,
+   130
+  ],
+  "rating": 93.7727084470088,
+  "rating_count": 5468,
+  "updated_at": 1790127709
+ },
+ {
+  "id": 144024,
+  "age_ratings": [
+   227034,
+   227035,
+   57303,
+   52191,
+   215464,
+   216204,
+   216205
+  ],
+  "aggregated_rating": 91.6923076923077,
+  "aggregated_rating_count": 13,
+  "cover": 525509,
+  "first_release_date": 1623283200,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 2,
+  "name": "Final Fantasy VII Remake Intergrade",
+  "platforms": [
+   169,
+   508,
+   6,
+   167
+  ],
+  "rating": 85.98456153358767,
+  "rating_count": 122,
+  "updated_at": 1789730975
+ },
+ {
+  "id": 145838,
+  "age_ratings": [
+   189910,
+   67320,
+   126111,
+   126110,
+   108899,
+   243793
+  ],
+  "aggregated_rating": 91.66666666666667,
+  "aggregated_rating_count": 6,
+  "cover": 141853,
+  "first_release_date": 1626393600,
+  "genres": [
+   10,
+   13,
+   14
+  ],
+  "hypes": 4,
+  "name": "F1 2021",
+  "platforms": [
+   169,
+   48,
+   6,
+   167,
+   49
+  ],
+  "rating": 78.84484944990697,
+  "rating_count": 37,
+  "updated_at": 1789787367
+ },
+ {
+  "id": 1009,
+  "age_ratings": [
+   189700,
+   47771,
+   23999,
+   47772,
+   47773,
+   47770,
+   47769
+  ],
+  "aggregated_rating": 91.53846153846153,
+  "aggregated_rating_count": 13,
+  "cover": 81915,
+  "first_release_date": 1371168000,
+  "genres": [
+   5,
+   31
+  ],
+  "name": "The Last of Us",
+  "platforms": [
+   9
+  ],
+  "rating": 92.83941645352151,
+  "rating_count": 3587,
+  "updated_at": 1790130766
+ },
+ {
+  "id": 19746,
+  "age_ratings": [
+   32477,
+   13944
+  ],
+  "aggregated_rating": 91.5,
+  "aggregated_rating_count": 10,
+  "cover": 353388,
+  "first_release_date": 1476316800,
+  "genres": [
+   5,
+   7,
+   31,
+   33
+  ],
+  "hypes": 3,
+  "name": "Rez Infinite",
+  "platforms": [
+   390,
+   48,
+   165,
+   34,
+   6,
+   163,
+   167,
+   385,
+   164,
+   384
+  ],
+  "rating": 73.60767204114259,
+  "rating_count": 26,
+  "updated_at": 1789730856
+ },
+ {
+  "id": 619,
+  "age_ratings": [
+   94634,
+   167978,
+   57774,
+   57775,
+   124278
+  ],
+  "aggregated_rating": 91.5,
+  "aggregated_rating_count": 6,
+  "cover": 104231,
+  "first_release_date": 1109635200,
+  "genres": [
+   5,
+   13,
+   15,
+   24
+  ],
+  "name": "Brothers in Arms: Road to Hill 30",
+  "platforms": [
+   11,
+   5,
+   6,
+   14,
+   8
+  ],
+  "rating": 72.04296600757976,
+  "rating_count": 92,
+  "updated_at": 1789760756
+ },
+ {
+  "id": 2135,
+  "age_ratings": [
+   47360,
+   35360,
+   47363,
+   47361,
+   47362,
+   47196,
+   188980
+  ],
+  "aggregated_rating": 91.42857142857143,
+  "aggregated_rating_count": 21,
+  "cover": 525393,
+  "first_release_date": 1411171200,
+  "genres": [
+   5,
+   25,
+   31
+  ],
+  "hypes": 1,
+  "name": "Bayonetta 2",
+  "platforms": [
+   41,
+   130
+  ],
+  "rating": 87.45009384960527,
+  "rating_count": 238,
+  "updated_at": 1790119289
+ },
+ {
+  "id": 2129,
+  "age_ratings": [
+   188891,
+   32666,
+   123594
+  ],
+  "aggregated_rating": 91.42857142857143,
+  "aggregated_rating_count": 7,
+  "cover": 130171,
+  "first_release_date": 1346976000,
+  "genres": [
+   8,
+   31,
+   32
+  ],
+  "name": "Mark of the Ninja",
+  "platforms": [
+   3,
+   6,
+   14,
+   12
+  ],
+  "rating": 84.42851166343775,
+  "rating_count": 317,
+  "updated_at": 1790184101
+ },
+ {
+  "id": 122238,
+  "age_ratings": [
+   94595,
+   38569,
+   112139,
+   95893,
+   225700,
+   225701
+  ],
+  "aggregated_rating": 91.375,
+  "aggregated_rating_count": 8,
+  "cover": 524560,
+  "first_release_date": 1590710400,
+  "genres": [
+   11,
+   12
+  ],
+  "hypes": 5,
+  "name": "Xenoblade Chronicles: Definitive Edition",
+  "platforms": [
+   130
+  ],
+  "rating": 81.09153142067085,
+  "rating_count": 83,
+  "updated_at": 1790144486
+ },
+ {
+  "id": 11800,
+  "age_ratings": [
+   123454,
+   28096,
+   189616
+  ],
+  "aggregated_rating": 91.3076923076923,
+  "aggregated_rating_count": 13,
+  "cover": 90931,
+  "first_release_date": 1505347200,
+  "genres": [
+   12,
+   15,
+   31
+  ],
+  "hypes": 22,
+  "name": "Divinity: Original Sin II",
+  "platforms": [
+   6,
+   39,
+   14
+  ],
+  "rating": 87.48123577841483,
+  "rating_count": 466,
+  "updated_at": 1789781715
+ },
+ {
+  "id": 26226,
+  "age_ratings": [
+   34568,
+   129309,
+   96521,
+   68800,
+   110564,
+   189813,
+   177613
+  ],
+  "aggregated_rating": 91.3,
+  "aggregated_rating_count": 10,
+  "cover": 525365,
+  "first_release_date": 1516838400,
+  "genres": [
+   8,
+   31,
+   32
+  ],
+  "hypes": 2,
+  "name": "Celeste",
+  "platforms": [
+   170,
+   48,
+   3,
+   6,
+   14,
+   49,
+   130
+  ],
+  "rating": 86.71450232512856,
+  "rating_count": 1464,
+  "updated_at": 1789859387
+ },
+ {
+  "id": 168670,
+  "age_ratings": [
+   158121,
+   106519,
+   56610,
+   56611,
+   56609
+  ],
+  "aggregated_rating": 91.27272727272727,
+  "aggregated_rating_count": 11,
+  "cover": 594833,
+  "first_release_date": 1643328000,
+  "genres": [
+   5,
+   31
+  ],
+  "hypes": 3,
+  "name": "Uncharted: Legacy of Thieves Collection",
+  "platforms": [
+   6,
+   167
+  ],
+  "rating": 87.88669518706868,
+  "rating_count": 94,
+  "updated_at": 1789783279
+ },
+ {
+  "id": 14593,
+  "age_ratings": [
+   205432,
+   23050,
+   84852,
+   68161,
+   84851,
+   95707,
+   188507
+  ],
+  "aggregated_rating": 91.25,
+  "aggregated_rating_count": 8,
+  "cover": 533941,
+  "first_release_date": 1487894400,
+  "genres": [
+   8,
+   31,
+   32
+  ],
+  "hypes": 3,
+  "name": "Hollow Knight",
+  "platforms": [
+   169,
+   48,
+   3,
+   508,
+   6,
+   167,
+   14,
+   41,
+   49,
+   130
+  ],
+  "rating": 91.79871478659992,
+  "rating_count": 2240,
+  "updated_at": 1790098657
+ },
+ {
+  "id": 113344,
+  "age_ratings": [
+   25457,
+   210383
+  ],
+  "aggregated_rating": 91.23076923076923,
+  "aggregated_rating_count": 13,
+  "cover": 79552,
+  "first_release_date": 1567728000,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 3,
+  "name": "Monster Hunter: World - Iceborne",
+  "platforms": [
+   48,
+   6,
+   49
+  ],
+  "rating": 85.508086472045,
+  "rating_count": 80,
+  "updated_at": 1789921924
+ },
+ {
+  "id": 6363,
+  "age_ratings": [
+   80597,
+   191088,
+   29399,
+   80596,
+   80598,
+   80599,
+   80595
+  ],
+  "aggregated_rating": 91.2,
+  "aggregated_rating_count": 10,
+  "cover": 115357,
+  "first_release_date": 1384905600,
+  "genres": [
+   8,
+   31
+  ],
+  "name": "Tearaway",
+  "platforms": [
+   46
+  ],
+  "rating": 82.75841643217989,
+  "rating_count": 52,
+  "updated_at": 1790133726
+ },
+ {
+  "id": 501,
+  "age_ratings": [
+   34055,
+   67923,
+   112974,
+   112977,
+   112976,
+   112975,
+   188641
+  ],
+  "aggregated_rating": 91.2,
+  "aggregated_rating_count": 10,
+  "cover": 87713,
+  "first_release_date": 1318896000,
+  "genres": [
+   25,
+   31
+  ],
+  "name": "Batman: Arkham City",
+  "platforms": [
+   113,
+   9,
+   6,
+   12,
+   130
+  ],
+  "rating": 87.59234776758075,
+  "rating_count": 2691,
+  "updated_at": 1790131154
+ },
+ {
+  "id": 8593,
+  "age_ratings": [
+   32128,
+   98675,
+   221971,
+   189562
+  ],
+  "aggregated_rating": 91.15384615384616,
+  "aggregated_rating_count": 13,
+  "cover": 526077,
+  "first_release_date": 1423699200,
+  "genres": [
+   9,
+   31
+  ],
+  "hypes": 1,
+  "name": "The Legend of Zelda: Majora's Mask 3D",
+  "platforms": [
+   37
+  ],
+  "rating": 90.40881344049839,
+  "rating_count": 184,
+  "updated_at": 1789911087
+ },
+ {
+  "id": 7334,
+  "age_ratings": [
+   31812,
+   192441,
+   192442,
+   213817,
+   77560,
+   192440,
+   192439
+  ],
+  "aggregated_rating": 91.11111111111111,
+  "aggregated_rating_count": 18,
+  "cover": 525225,
+  "first_release_date": 1427155200,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 9,
+  "name": "Bloodborne",
+  "platforms": [
+   48
+  ],
+  "rating": 91.35133873326473,
+  "rating_count": 1864,
+  "updated_at": 1790179718
+ },
+ {
+  "id": 153700,
+  "age_ratings": [
+   68868,
+   221934,
+   209529,
+   62602,
+   62601,
+   188640
+  ],
+  "aggregated_rating": 91.0909090909091,
+  "aggregated_rating_count": 11,
+  "cover": 172563,
+  "first_release_date": 1629417600,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 3,
+  "name": "Ghost of Tsushima: Director's Cut",
+  "platforms": [
+   48,
+   6,
+   167
+  ],
+  "rating": 86.94161537847847,
+  "rating_count": 269,
+  "updated_at": 1789879783
+ },
+ {
+  "id": 2136,
+  "age_ratings": [
+   188981,
+   125967,
+   47325,
+   47329,
+   28025,
+   94789,
+   47326
+  ],
+  "aggregated_rating": 90.86666666666666,
+  "aggregated_rating_count": 15,
+  "cover": 403600,
+  "first_release_date": 1256774400,
+  "genres": [
+   5,
+   25,
+   31
+  ],
+  "name": "Bayonetta",
+  "platforms": [
+   9,
+   6,
+   12
+  ],
+  "rating": 81.93106910783237,
+  "rating_count": 561,
+  "updated_at": 1790036480
+ },
+ {
+  "id": 152063,
+  "age_ratings": [
+   222153,
+   56190,
+   43701,
+   106616,
+   198429,
+   198428,
+   198430
+  ],
+  "aggregated_rating": 90.85714285714286,
+  "aggregated_rating_count": 7,
+  "cover": 540160,
+  "first_release_date": 1632441600,
+  "genres": [
+   5,
+   12,
+   31
+  ],
+  "hypes": 3,
+  "name": "Death Stranding: Director's Cut",
+  "platforms": [
+   169,
+   6,
+   39,
+   167,
+   14
+  ],
+  "rating": 88.40774555183575,
+  "rating_count": 145,
+  "updated_at": 1790120440
+ },
+ {
+  "id": 141540,
+  "age_ratings": [
+   95626,
+   126025,
+   50189,
+   50190,
+   60064,
+   56175,
+   46216
+  ],
+  "aggregated_rating": 90.83333333333333,
+  "aggregated_rating_count": 6,
+  "cover": 133993,
+  "first_release_date": 1617062400,
+  "genres": [
+   12,
+   31,
+   32
+  ],
+  "hypes": 5,
+  "name": "Disco Elysium: The Final Cut",
+  "platforms": [
+   170,
+   169,
+   48,
+   6,
+   167,
+   14,
+   49,
+   130
+  ],
+  "rating": 94.1941912293894,
+  "rating_count": 228,
+  "updated_at": 1789736151
+ },
+ {
+  "id": 115060,
+  "age_ratings": [
+   160719,
+   171161,
+   171162,
+   171163,
+   171164,
+   171165,
+   230879
+  ],
+  "aggregated_rating": 90.83333333333333,
+  "aggregated_rating_count": 6,
+  "cover": 377276,
+  "first_release_date": 1711065600,
+  "genres": [
+   12,
+   31
+  ],
+  "hypes": 31,
+  "name": "Dragon's Dogma II",
+  "platforms": [
+   169,
+   508,
+   6,
+   167
+  ],
+  "rating": 73.07022667344258,
+  "rating_count": 85,
+  "updated_at": 1789792768
+ },
+ {
+  "id": 75,
+  "age_ratings": [
+   105825,
+   4667,
+   105823,
+   105573,
+   105824,
+   108071,
+   188429
+  ],
+  "aggregated_rating": 90.8125,
+  "aggregated_rating_count": 14,
+  "cover": 89702,
+  "first_release_date": 1330992000,
+  "genres": [
+   5,
+   12,
+   15,
+   31
+  ],
+  "hypes": 1,
+  "name": "Mass Effect 3",
+  "platforms": [
+   9,
+   6,
+   12
+  ],
+  "rating": 85.22320789192614,
+  "rating_count": 1851,
+  "updated_at": 1790133665
+ },
+ {
+  "id": 2350,
+  "age_ratings": [
+   190975,
+   47120,
+   98452,
+   98454,
+   93590,
+   98453
+  ],
+  "aggregated_rating": 90.8,
+  "aggregated_rating_count": 15,
+  "cover": 94742,
+  "first_release_date": 1401321600,
+  "genres": [
+   10,
+   33
+  ],
+  "hypes": 10,
+  "name": "Mario Kart 8",
+  "platforms": [
+   41
+  ],
+  "rating": 86.5635026360616,
+  "rating_count": 674,
+  "updated_at": 1790029299
+ },
+ {
+  "id": 82090,
+  "age_ratings": [
+   93177,
+   30615,
+   111390,
+   94817,
+   238115,
+   238116,
+   238117
+  ],
+  "aggregated_rating": 90.78571428571429,
+  "aggregated_rating_count": 14,
+  "cover": 111502,
+  "first_release_date": 1538438400,
+  "genres": [
+   10,
+   14,
+   31
+  ],
+  "hypes": 15,
+  "name": "Forza Horizon 4",
+  "platforms": [
+   169,
+   6,
+   49
+  ],
+  "rating": 81.9137726145796,
+  "rating_count": 432,
+  "updated_at": 1790072491
+ },
+ {
+  "id": 138227,
+  "age_ratings": [
+   112290,
+   50791,
+   50790,
+   50792,
+   50793,
+   50794,
+   189824
+  ],
+  "aggregated_rating": 90.76923076923077,
+  "aggregated_rating_count": 13,
+  "cover": 527557,
+  "first_release_date": 1613088000,
+  "genres": [
+   8,
+   31
+  ],
+  "hypes": 2,
+  "name": "Super Mario 3D World + Bowser's Fury",
+  "platforms": [
+   508,
+   130
+  ],
+  "rating": 88.6764097009665,
+  "rating_count": 111,
+  "updated_at": 1789213235
+ },
+ {
+  "id": 112412,
+  "age_ratings": [
+   222716,
+   222715,
+   30932
+  ],
+  "aggregated_rating": 90.75,
+  "aggregated_rating_count": 8,
+  "cover": 538430,
+  "first_release_date": 1562025600,
+  "genres": [
+   12
+  ],
+  "hypes": 1,
+  "name": "Final Fantasy XIV: Shadowbringers",
+  "platforms": [
+   169,
+   48,
+   508,
+   6,
+   167,
+   14
+  ],
+  "rating": 91.05944406971958,
+  "rating_count": 68,
+  "updated_at": 1789850083
+ },
+ {
+  "id": 37001,
+  "age_ratings": [
+   96331,
+   189632,
+   67448,
+   29026,
+   91380,
+   125376,
+   225695
+  ],
+  "aggregated_rating": 90.75,
+  "aggregated_rating_count": 12,
+  "cover": 585259,
+  "first_release_date": 1583798400,
+  "genres": [
+   8,
+   31
+  ],
+  "hypes": 66,
+  "name": "Ori and the Will of the Wisps",
+  "platforms": [
+   169,
+   6,
+   49,
+   130
+  ],
+  "rating": 87.13903018527303,
+  "rating_count": 578,
+  "updated_at": 1789735227
+ },
+ {
+  "id": 26202,
+  "age_ratings": [
+   131456,
+   33117,
+   58060,
+   77587
+  ],
+  "aggregated_rating": 90.6875,
+  "aggregated_rating_count": 16,
+  "cover": 85415,
+  "first_release_date": 1497916800,
+  "genres": [
+   5,
+   32,
+   33
+  ],
+  "hypes": 2,
+  "name": "Nex Machina",
+  "platforms": [
+   48,
+   6
+  ],
+  "rating": 80.09885540221525,
+  "rating_count": 30,
+  "updated_at": 1789789550
+ }
+]

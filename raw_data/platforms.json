@@ -2,37 +2,31 @@
  {
   "id": 1,
   "name": "Console",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176001"
  },
  {
   "id": 2,
   "name": "Arcade",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176002"
  },
  {
   "id": 3,
   "name": "Platform",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176003"
  },
  {
   "id": 4,
   "name": "Operating_system",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176004"
  },
  {
   "id": 5,
   "name": "Portable_console",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176005"
  },
  {
   "id": 6,
   "name": "Computer",
-  "created_at": 1738540800,
   "checksum": "123e4567-e89b-12d3-a456-426614176006"
  }
 ]

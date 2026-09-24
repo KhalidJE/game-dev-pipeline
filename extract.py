@@ -34,19 +34,19 @@ auth.raise_for_status()
 token = auth.json()["access_token"]
 
 # Game Data:
-game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, age_ratings, first_release_date, updated_at, hypes, cover.image_id; where aggregated_rating > 75 & aggregated_rating_count > 5; sort aggregated_rating desc;"
+game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, age_ratings, first_release_date, cover.image_id; where game_type.id = 0 & summary != null & (status = null | status = 0 | status = 8) & first_release_date >= 2010 & rating_count != 0; sort rating_count desc;"
 games = fetch_all(
     "games",
     game_data,
     {"Client-ID": client_id, "Authorization": f"Bearer {token}"}
-) # Where clause will be removed from here and instead reserved for database querying, cover will be expanded inline as well
+) # where clause for filtering by aggregated ratings removed from extraction and reserved for database querying
 
 with open("raw_data/games.json", "w", encoding="utf-8") as f:
     json.dump(games, f, indent=1)
 print(f"Saved {len(games)} games")
 
 # Genre Data:
-genre_data = "fields name, checksum, created_at, url;"
+genre_data = "fields name, checksum;"
 genres = fetch_all(
     "genres",
     genre_data,
@@ -58,7 +58,7 @@ with open("raw_data/genres.json", "w", encoding="utf-8") as f:
 print(f"Saved {len(genres)} genres")
 
 # Platform Data:
-platform_data = "fields name, checksum, created_at;"
+platform_data = "fields name, checksum;"
 platforms = fetch_all(
     "platform_types",
     platform_data,
@@ -70,7 +70,7 @@ with open("raw_data/platforms.json", "w", encoding="utf-8") as f:
 print(f"Saved {len(platforms)} platforms")
 
 # Game Mode Data:
-mode_data = "fields name, checksum, url;"
+mode_data = "fields name, checksum;"
 modes = fetch_all(
     "game_modes",
     mode_data,

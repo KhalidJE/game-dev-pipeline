@@ -15,13 +15,13 @@ FROM read_json_auto('raw_data/genres.json');
 
 --MODES
 CREATE OR REPLACE TABLE game_modes AS
-SELECT id AS game_id, UNNEST(modes) AS mode_id
+SELECT id AS game_id, UNNEST(game_modes) AS mode_id
 FROM read_json_auto('raw_data/games.json')
-WHERE modes IS NOT NULL;
+WHERE game_modes IS NOT NULL;
 
 CREATE OR REPLACE TABLE modes AS
 select id as mode_id, name AS mode_name
-FROM read_json_auto('raw_data/modes.json')
+FROM read_json_auto('raw_data/modes.json');
 
 --PLATFORMS
 CREATE OR REPLACE TABLE game_platforms AS
@@ -31,4 +31,4 @@ WHERE platforms IS NOT NULL;
 
 CREATE OR REPLACE TABLE platforms AS
 SELECT id AS platform_id, name AS platform_name
-FROM read_json_auto('raw_data/platforms.json')
+FROM read_json_auto('raw_data/platforms.json');

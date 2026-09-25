@@ -34,7 +34,7 @@ auth.raise_for_status()
 token = auth.json()["access_token"]
 
 # Game Data:
-game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, age_ratings, first_release_date, cover.image_id; where game_type.id = 0 & summary != null & (status = null | status = 0 | status = 8) & first_release_date >= 2010 & rating_count != 0; sort rating_count desc;"
+game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, age_ratings, first_release_date, cover.image_id; where game_type.id = 0 & summary != null & (status = null | status = 0 | status = 8) & first_release_date >= 2010 & rating_count != 0;"
 games = fetch_all(
     "games",
     game_data,

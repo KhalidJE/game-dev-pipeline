@@ -7,6 +7,7 @@ This pipeline exists to serve a creative director at a game development studio a
   * Ratings from users/players
   * Genres
   * Platforms
+  * Game modes
   * Release date
 
  ## The Data

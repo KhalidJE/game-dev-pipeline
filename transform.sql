@@ -32,3 +32,8 @@ WHERE platforms IS NOT NULL;
 CREATE OR REPLACE TABLE platforms AS
 SELECT id AS platform_id, name AS platform_name
 FROM read_json_auto('raw_data/platforms.json');
+
+
+--GAME AWARDS
+--CREATE OR REPLACE TABLE industry_awards AS
+--SELECT * FROM

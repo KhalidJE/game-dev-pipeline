@@ -52,6 +52,9 @@ Link to IGDB API documentation: https://api-docs.igdb.com
 ## How It Works
 Uses DuckDB for a local database and Python for extraction code. Evidence.dev is used for the final interactive report.
 
+Game data originates from IGDB, specifically pulled from the following endpoints: game, genres, platform_types, game_modes.
+Game award data is pulled from...
+
 ## How To Run It
 
 ## What I Would Do Next

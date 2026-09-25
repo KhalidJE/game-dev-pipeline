@@ -1,4 +1,4 @@
-import requests, json, os, time
+import requests, json, os, time, pathlib
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -80,3 +80,7 @@ modes = fetch_all(
 with open("raw_data/modes.json", "w", encoding="utf-8") as f:
     json.dump(modes, f, indent=1)
 print(f"Saved {len(modes)} game modes")
+
+
+#Game Awards
+#UA = "goty-pipeline/1.0 (student project; )"

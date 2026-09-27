@@ -35,5 +35,6 @@ FROM read_json_auto('raw_data/platforms.json');
 
 
 --GAME AWARDS
---CREATE OR REPLACE TABLE industry_awards AS
---SELECT * FROM
+CREATE OR REPLACE TABLE awards AS
+SELECT title, award_year, is_winner, trim(regexp_replace(regexp_replace(lower(replace(title, '&', 'and')), '[^a-z0-9 ]', '', 'g'), ' +', ' ', 'g'))
+FROM read_csv_auto('raw_data/awards/goty_list.csv')

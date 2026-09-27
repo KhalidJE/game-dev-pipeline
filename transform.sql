@@ -1,5 +1,8 @@
 CREATE OR REPLACE TABLE games AS
-SELECT id, name, aggregated_rating, aggregated_rating_count, rating, rating_count, age_ratings, to_timestamp(first_release_date) AS release_date
+SELECT id, name, aggregated_rating, aggregated_rating_count, rating, rating_count, age_ratings,
+    to_timestamp(first_release_date) AS release_date,
+    trim(regexp_replace(regexp_replace(lower(replace(name, '&', 'and')), '[^a-z0-9 ]', '', 'g'), ' +', ' ', 'g')) AS simple_title,
+    EXTRACT(YEAR FROM to_timestamp(first_release_date)) AS release_year
 FROM read_json_auto('raw_data/games.json')
 WHERE first_release_date IS NOT NULL;
 
@@ -38,4 +41,13 @@ FROM read_json_auto('raw_data/platforms.json');
 CREATE OR REPLACE TABLE awards AS
 SELECT title, award_year, is_winner,
 trim(regexp_replace(regexp_replace(lower(replace(title, '&', 'and')), '[^a-z0-9 ]', '', 'g'), ' +', ' ', 'g')) AS simple_title
-FROM read_csv_auto('raw_data/awards/goty_list.csv')
+FROM read_csv_auto('raw_data/awards/goty_list.csv');
+
+CREATE OR REPLACE TABLE awarded_games AS
+SELECT a.title, a.award_year, g.id AS game_id, 'exact' AS match_method
+FROM awards a
+JOIN games g ON g.simple_title = a.simple_title
+QUALIFY row_number() OVER (
+    PARTITION BY a.title
+    ORDER BY abs(a.award_year - g.release_year)
+) = 1;

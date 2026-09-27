@@ -24,7 +24,7 @@ df = df.rename(columns={"Event": "award_year", "Game": "title"})[["title", "awar
 df["award_year"] = df["award_year"].astype(str).str.extract(r"(\d{4})")[0]
 df["award_year"] = df["award_year"].ffill().astype(int)
 df["title"] = df["title"].str.replace(r"\[.*?\]", "", regex=True).str.strip()
-df["title"] = df["title"].str.replace("‡", "").str.strip()
+df["title"] = df["title"].str.replace("‡", "").str.strip() # all GOTY winners have the ‡ symbol at the end of their title, not needed for identification - winners are always top of the list
 
 df["is_winner"] = df.groupby("award_year").cumcount() == 0
 

@@ -23,7 +23,6 @@ This pipeline exists to serve a creative director at a game development studio a
    * game modes - allows director to analyse which modes (e.g. singleplayer, PVP, co-op, etc.) are most commonly supported
    * first_release_date - proves longevity of analysed games
    * cover - for use in report presentation
-   * age_ratings - to keep track of target audiences
     
   Scope filters include:
    * game_type.id = 0 - limits results to just main games, excluding DLCs and expansions in the process
@@ -44,6 +43,11 @@ Game Modes Endpoint
    * name
    * checksum - track changes to IGDB entry between pulls
 
+Game Awards
+   * Event (year of award)
+   * Game (name of title)
+      * is_winner - derived from list of nominees (first title at the top of the list each year is the winner)
+
 ID field is returned by default in all cases.
 
 Link to IGDB API documentation: https://api-docs.igdb.com
@@ -53,7 +57,7 @@ Link to IGDB API documentation: https://api-docs.igdb.com
 Uses DuckDB for a local database and Python for extraction code. Evidence.dev is used for the final interactive report.
 
 Game data originates from IGDB, specifically pulled from the following endpoints: game, genres, platform_types, game_modes.
-Game award data is pulled from...
+Game award data is pulled from Wikipedia (https://en.wikipedia.org/wiki/The_Game_Award_for_Game_of_the_Year) and matched to game data pulled from IGDB.
 
 ## How To Run It
 

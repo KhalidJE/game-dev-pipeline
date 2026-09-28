@@ -8,10 +8,13 @@ load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 client_secret = os.getenv("CLIENT_SECRET")
 
-def fetch_all(endpoint, query, headers, page=500):
-    rows, offset = [], 0
+def fetch_all(endpoint, fields, headers, scope=None, page=500):
+    rows, last_id = [], 0
     while True:
-        body = f"{query} limit {page}; offset {offset};"
+        where = f"id > {last_id}"
+        if scope:
+            where = f"({scope}) & {where}"
+        body = f"{fields} where {where}; sort id asc; limit {page};"
         r = requests.post(f"https://api.igdb.com/v4/{endpoint}", headers=headers, data=body)
         r.raise_for_status()
         batch = r.json()
@@ -19,9 +22,7 @@ def fetch_all(endpoint, query, headers, page=500):
             break
 
         rows += batch
-        if len(batch) < page:
-            break
-        offset += page
+        last_id = batch[-1]["id"]
         time.sleep(0.25) # adhere to 4 requests/sec limit
     return rows
 
@@ -34,11 +35,15 @@ auth.raise_for_status()
 token = auth.json()["access_token"]
 
 # Game Data:
-game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, first_release_date, cover.image_id; where game_type.id = 0 & (status = null | status = 0 | status = 8) & first_release_date >= 1388534400 & rating_count != 0;"
+GAME_FIELDS = ("fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, first_release_date, cover.image_id;")
+GAME_SCOPE = ("first_release_date >= 1388534400 & rating_count >= 10")
+
+#game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, first_release_date, cover.image_id; where game_type.id = 0 & first_release_date >= 1388534400 & rating_count != 0;"
 games = fetch_all(
     "games",
-    game_data,
-    {"Client-ID": client_id, "Authorization": f"Bearer {token}"}
+    GAME_FIELDS, 
+    {"Client-ID": client_id, "Authorization": f"Bearer {token}"},
+    scope=GAME_SCOPE,
 ) # where clause for filtering by aggregated ratings removed from extraction and reserved for database querying
 
 with open("raw_data/games.json", "w", encoding="utf-8") as f:

@@ -1,7 +1,4 @@
-title,award_year,is_winner
-Hearthstone,2014,False
-Inside,2016,False
-PlayerUnknown's Battlegrounds,2017,True
-Animal Crossing: New Horizons,2020,False
-Baldur's Gate 3,2023,True
-Alan Wake 2,2023,False
+title,award_year,is_winner,game_id
+PlayerUnknown's Battlegrounds,2017,True,27789
+Baldur's Gate 3,2023,True,119171
+Alan Wake 2,2023,False,185246

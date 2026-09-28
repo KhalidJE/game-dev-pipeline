@@ -52,7 +52,7 @@ JOIN games g ON g.simple_title = a.simple_title
 QUALIFY row_number() OVER (
     PARTITION BY a.title, a.award_year
     ORDER BY abs(a.award_year - g.release_year)
-) = 1;
--- UNION ALL --unions in data that is in awards but not awarded_games
--- SELECT title, award_year, game_id, 'manual' as match_method
--- FROM read_csv_auto('raw_data/awards/goty_manual.csv');
+) = 1
+UNION ALL --unions in data that is in awards but not awarded_games
+SELECT title, award_year, is_winner, game_id, 'manual' as match_method
+FROM read_csv_auto('raw_data/awards/goty_manual.csv');

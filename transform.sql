@@ -4,7 +4,7 @@ SELECT id, name, aggregated_rating, aggregated_rating_count, rating, rating_coun
     trim(regexp_replace(lower(replace(name, '&', 'and')), '[^a-z0-9]+', ' ', 'g')) AS simple_title,
     EXTRACT(YEAR FROM to_timestamp(first_release_date)) AS release_year
 FROM read_json_auto('raw_data/games.json')
-WHERE first_release_date IS NOT NULL
+WHERE first_release_date IS NOT NULL AND (game_type NOT IN (1 | 2 | 3 | 13 | 14) OR game_type IS NULL) --excludes DLCs, expansions, bundles, packs and updates
 QUALIFY row_number() OVER (PARTITION BY id ORDER BY id) = 1; --ensures 1 row per game to fix 4k duplicate issue
 
 --GENRES
@@ -56,3 +56,20 @@ QUALIFY row_number() OVER (
 UNION ALL --unions in data that is in awards but not awarded_games
 SELECT title, award_year, is_winner, game_id, 'manual' as match_method
 FROM read_csv_auto('raw_data/awards/goty_manual.csv');
+
+CREATE OR REPLACE TABLE genre_opportunity AS
+WITH per_genre AS (
+    SELECT genre_id, count(DISTINCT game_id) AS games_shipped
+    FROM game_genres GROUP BY genre_id
+),
+awards_per_genre AS (
+    SELECT gg.genre_id, count(DISTINCT ag.game_id) AS awarded
+    FROM awarded_games ag
+    JOIN game_genres gg ON gg.game_id = ag.game_id
+    GROUP BY gg.genre_id
+)
+SELECT g.genre_name, p.games_shipped, coalesce(a.awarded, 0) AS awarded, coalesce(a.awarded, 0) * 1000.0 / p.games_shipped AS awarded_per_1000
+FROM genres g
+JOIN per_genre p ON p.genre_id = g.genre_id
+LEFT JOIN awards_per_genre a ON a.genre_id = g.genre_id
+ORDER BY awarded_per_1000 DESC;

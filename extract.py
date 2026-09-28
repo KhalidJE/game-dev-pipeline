@@ -35,7 +35,7 @@ auth.raise_for_status()
 token = auth.json()["access_token"]
 
 # Game Data:
-GAME_FIELDS = ("fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, first_release_date, cover.image_id;")
+GAME_FIELDS = ("fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, game_type, first_release_date, cover.image_id;")
 GAME_SCOPE = ("first_release_date >= 1388534400 & rating_count >= 10")
 
 #game_data = "fields name, aggregated_rating, aggregated_rating_count, rating, rating_count, genres, platforms, game_modes, first_release_date, cover.image_id; where game_type.id = 0 & first_release_date >= 1388534400 & rating_count != 0;"

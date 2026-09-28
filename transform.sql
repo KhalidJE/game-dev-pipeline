@@ -73,3 +73,34 @@ FROM genres g
 JOIN per_genre p ON p.genre_id = g.genre_id
 LEFT JOIN awards_per_genre a ON a.genre_id = g.genre_id
 ORDER BY awarded_per_1000 DESC;
+
+--REPORT TABLES (flattened for the Evidence report, exported by build.py)
+CREATE OR REPLACE TABLE report_games AS
+WITH goty AS (
+    SELECT game_id, bool_or(is_winner) AS won, min(award_year) AS award_year
+    FROM awarded_games
+    GROUP BY game_id
+)
+SELECT g.id AS game_id, g.name, g.release_year,
+    round(g.aggregated_rating, 1) AS critic_rating, g.aggregated_rating_count AS critic_rating_count,
+    round(g.rating, 1) AS user_rating, g.rating_count AS user_rating_count,
+    CASE WHEN goty.won THEN 'Winner' WHEN goty.game_id IS NOT NULL THEN 'Nominee' ELSE 'Not nominated' END AS goty_status,
+    goty.award_year
+FROM games g
+LEFT JOIN goty ON goty.game_id = g.id;
+
+CREATE OR REPLACE TABLE report_game_attributes AS --one row per game per genre/platform/mode
+WITH attributes AS (
+    SELECT gg.game_id, 'Genre' AS attribute_type, ge.genre_name AS attribute
+    FROM game_genres gg JOIN genres ge ON ge.genre_id = gg.genre_id
+    UNION ALL
+    SELECT gp.game_id, 'Platform', p.platform_name
+    FROM game_platforms gp JOIN platforms p ON p.platform_id = gp.platform_id
+    UNION ALL
+    SELECT gm.game_id, 'Game mode', m.mode_name
+    FROM game_modes gm JOIN modes m ON m.mode_id = gm.mode_id
+)
+SELECT a.attribute_type, a.attribute, r.*,
+    CASE WHEN r.goty_status <> 'Not nominated' THEN 1 ELSE 0 END AS is_nominated
+FROM attributes a
+JOIN report_games r ON r.game_id = a.game_id; --inner join keeps attributes consistent with the games scope filters

@@ -1,0 +1,5 @@
+# reads the DuckDB file built by build.py in the project root
+name: pipeline
+type: duckdb
+options:
+  filename: ../../../dev.db

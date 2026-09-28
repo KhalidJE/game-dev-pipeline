@@ -25,11 +25,15 @@ This pipeline exists to serve a creative director at a game development studio a
    * cover - for use in report presentation
     
   Scope filters include:
-   * game_type.id = 0 - limits results to just main games, excluding DLCs and expansions in the process
-   * summary != null - filters out unfinished entries
-   * status = null | status = 0 | status = 8 - limits results to just released or delivered (or no defined status) rather than unfinished
-   * first_release_date >= 2010 - to take into account only more recent games and exclude older, less relevant titles
-   * rating_count != 0 - just acts as a further filter to reduce bloat, final two filters drop returned count from ~304k to ~24k games
+   * first_release_date >= 1388534400 - to take into account only more recent games from 2014 onwards, enabling matching with GOTY data
+   * rating_count >= 10 - just acts as a further filter to reduce bloat. 
+
+   Scope filters that were removed:
+   * game_type.id = 0 - did not limit to just main games as expected and instead cut out some games during fetching.
+   * summary != null - some GOTY winners were listed in IGDB with no summary (such as Inside)
+   * status = null | status = 0 | status = 8 - limits results to just released or delivered (or no defined status) rather than unfinished but also caused issues with some titles being marked with the wrong status and thus not showing up.
+
+   These filters dropped the returned results from ~304k to ~24k games, with rating_count initially filtering to != 0 then >= 10 and filtering out a further 20k games to bring the total to 4.8k+.
 
 Genres Endpoint
    * name
@@ -58,6 +62,8 @@ Uses DuckDB for a local database and Python for extraction code. Evidence.dev is
 
 Game data originates from IGDB, specifically pulled from the following endpoints: game, genres, platform_types, game_modes.
 Game award data is pulled from Wikipedia (https://en.wikipedia.org/wiki/The_Game_Award_for_Game_of_the_Year) and matched to game data pulled from IGDB.
+
+Uses keyset pagination for data fetching. Made a switch from offset paging to improve data consistency; rows were being skipped between extraction script runs and returning new results each time. Was also the better choice for performance as it keeps execution time O(1).
 
 ## How To Run It
 

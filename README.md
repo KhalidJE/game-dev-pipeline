@@ -1,4 +1,4 @@
-# game-dev-pipeline
+# Game Dev Pipeline
 A data pipeline to extract, transform, and load game data from the IGDB API. Processed data is used to create a report for the described purpose below.
 
 ## Introduction

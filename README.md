@@ -1,6 +1,11 @@
 # game-dev-pipeline
 A data pipeline to extract, transform, and load game data from the IGDB API. Processed data is used to create a report for the described purpose below.
 
+## Introduction
+This project was undertaken for the purpose of completing my application to the Information Lab. I recently graduated from City, University of London with a First-Class degree in Computer Science and was previously working as a control & communication systems engineer for a consultancy, where I spent my time working with different teams, including project delivery, network engineering, and (for the majority of my time) the support team at Heathrow.
+
+After graduation and having spent so much time working in systems engineering, I found that I was unsure of what career path to pursue with my degree. Getting to understand more about data analysis and engineering has cleared that up for me, with this project in particular giving me the opportunity to confirm that data engineering is a career path that suits my skillset and my character. For that reason, this programme seems like the best way for me to both begin my career and grow within the field with confidence.
+
 ## What I Built & Who For
 This pipeline exists to serve a creative director at a game development studio aiming to come up with a new game idea to pitch to a publisher. The director wants to base the decision on what type of games have been succeeding, taking into account several factors:
   * Ratings from external critics
@@ -26,7 +31,7 @@ A final interactive report is created using the pre-existing tables as well as t
    * platforms - allows director to plan for different device compatibility
    * game modes - allows director to analyse which modes (e.g. singleplayer, PVP, co-op, etc.) are most commonly supported
    * first_release_date - proves longevity of analysed games
-   * cover - for use in report presentation
+   * cover - for use in report presentation (see future work)
     
   Scope filters include:
    * first_release_date >= 1388534400 - to take into account only more recent games from 2014 onwards, enabling matching with GOTY data
@@ -93,6 +98,8 @@ Adding more awards would be the priority; there are highly acclaimed games belon
 For the specified audience, having this extra information would allow them to make an informed decision with greater confidence.
 
 Also, genre_opportunity still counts DLCS, expansions, bundles, etc., so for future work, it would be good to find a way to add a sanity check for non-main games without losing important entries that could be tied to game award data.
+
+One last, purely aesthetic change that could be made is to make use of the cover endpoint and load game cover images on the final report when a game is searched. The endpoint is already pulled but has not been used.
 
 ## Project Structure
 ```

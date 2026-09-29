@@ -1,6 +1,7 @@
 .env
 dev.db
 duckdb.exe
+.vscode
 
 # Evidence
 report/.evidence/template
